@@ -1,0 +1,6 @@
+<div ng-controller="TweetsVisController" class="tweets-vis" >
+	<div ng-show="showTweet" class="timeline-block">
+		<twitter-widget ng-repeat="tweetId in records" twitter-widget-id="tweetId" class="tweet-block"></twitter-widget> 
+		<p ng-show="showMessage"> tweet senza risposta</p>
+	</div>
+</div>

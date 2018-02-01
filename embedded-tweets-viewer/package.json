@@ -1,0 +1,13 @@
+{
+	"name": "embedded_tweets_viewer",
+	"version": "0.0.0",
+	"description": "embedded tweets viewer",
+	"main": "index.js",
+	"kibana": {
+		"version": "5.6.4"
+	},
+	"dependencies": {
+		"elasticsearch-browser": "^14.0.0",
+		"ngtweet": "^0.6.2"
+	}
+}
