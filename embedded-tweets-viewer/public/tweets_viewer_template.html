@@ -1,0 +1,12 @@
+<div ng-controller="TweetsVisController" class="tweets-vis" >
+  <div class="search-block">
+    <input type="search" class="search-bar" placeholder="Search..." ng-model="searchData">
+    <span class="button-cube kuiIcon fa-search" ng-click="esSearch()"></span>
+  </div>
+  <span ng-show="showMessage" >
+  	<h1>No result found :-( !</h1>
+  </span>
+	<div ng-show="showTweet" class="timeline-block">
+		<twitter-widget ng-repeat="tweetId in records track by $index" twitter-widget-id="tweetId" class="tweet-block"></twitter-widget>
+	</div>
+</div>

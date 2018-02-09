@@ -1,0 +1,60 @@
+.tweets-vis{
+  width: 100%;
+  text-align: center;
+}
+
+.timeline-block{
+	width: 70%;
+	border-width: 1px 1px;
+	border-color: blue ;
+	padding : 0px;
+	margin : 0px;
+	position: relative;
+	left: 12.5%;
+	overflow-y: auto;
+	background: linear-gradient(#DCDCDC, white);
+}
+
+.tweet-block{
+	width: 80%;
+	position: relative;
+	left: 10%;
+}
+
+.search-block{
+	width:100%;
+	margin-top : 15%;
+	margin-bottom: 10%;
+	position : relative;
+}
+
+.search-bar{
+	width: 55%;
+	left: 30%;
+	height : 15%;
+  line-height: 1.42857143;
+  color: #2D2D2D;
+  background-color: #ffffff;
+  border: 1px solid #ecf0f1;
+  border-radius: 4px;
+
+}
+
+.button-cube{
+	left: 82%;
+}
+
+.options-cube{
+  border: 2px solid #ecf0f1;
+  line-height: 2;
+}
+
+#reccordLength{
+	width:15%;
+}
+
+#field{
+	width:60%;
+}
+
+
