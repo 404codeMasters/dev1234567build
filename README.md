@@ -8,7 +8,7 @@ prerequisite:
 installation:
 -clone or unzip the project into : kibana_path_folder/plugins/  
    >cd kibana_path_folder/plugins
-   >git clone "https://github.com/404codeMasters/dev1234567build
+   >git clone "https://github.com/404codeMasters/dev1234567build.git"
 
 Configuration:
 -you can change your index name in config.js file
